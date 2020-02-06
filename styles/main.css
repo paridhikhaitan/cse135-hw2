@@ -1,0 +1,176 @@
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: white;
+  color: palevioletred;
+}
+
+h3 {
+  text-align: center;
+  color: powderblue;
+}
+
+nav {
+  text-align: right;
+  padding-top: 2%;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 0 25px;
+}
+
+nav a:hover {
+  color: palevioletred;
+}
+
+.banner {
+  color: black;
+  text-align: center;
+  height: 400px;
+  background-image: url("../components/glider.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  margin-top: 5%;
+}
+
+footer {
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  background: #ffdddd;
+  color: black;
+}
+
+.banner h2 {
+  color: black;
+}
+
+#mainImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border: solid 2px palevioletred;
+}
+
+main {
+  font-size: 20px;
+  text-align: justify;
+  margin: 2%;
+}
+
+pre {
+  text-align: center;
+}
+
+address {
+  margin: 2%;
+  text-align: center;
+  color: palevioletred;
+}
+
+label {
+  color: palevioletred;
+}
+
+form {
+  margin: 5%;
+}
+
+h1 {
+  text-align: center;
+}
+
+table,
+td,
+th,
+tr {
+  border: 1px solid #ff9aa2;
+  color: black;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+thead {
+  background: #ffdddd;
+}
+
+td {
+  padding: 20px;
+}
+
+.school {
+  background: gray;
+}
+
+.Lunch {
+  background: #ecbdc4;
+}
+
+.meeting {
+  background: #e4a0b7;
+}
+.work {
+  background: #c2cbff;
+}
+
+.lists {
+  margin: 5%;
+}
+
+h2 {
+  color: #d4c1ff;
+}
+
+iframe {
+  width: 80%;
+  height: 600px;
+  background-color: white;
+}
+
+#bio {
+  display: flex;
+}
+
+#bio details {
+  margin: 0% 5%;
+  color: #ff9aa2;
+}
+
+li img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+dialog {
+    z-index: 5;
+    width: 50%;
+    height: 80%;
+    overflow: scroll;
+    background-color: #e9e3f4;
+    color: white;
+    border: medium solid #8565c4;
+}
+
+#purgeAllData{
+margin-right: auto;
+margin-left: auto;
+display: block;
+background-color: lavenderblush;
+color: #ff85a2;
+border: 1px solid #ffdfe7;
+height: 50px;
+width: 150px;
+}

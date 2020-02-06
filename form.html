@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Personal Page ♥</title>
+        
+        <!-- Used to define an external style sheet -->
+        <link rel="stylesheet" type="text/css" href="./styles/main.css">
+            
+        <!--Meta Tags: provides information about the page-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="keywords" content= "HTML, CSS, JavaScript, Homework, Web" />
+
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+        <script src="./scripts/reporter.js"></script>
+    </head>
+
+    <body>
+            <nav>
+                    <a href="index.html">Home</a>
+                    <a href="images.html">Images</a>
+                    <a href="form.html">Form</a>
+                    <a href="table_and_lists.html">Table and Lists</a>
+                    <a href="external.html">External</a>
+                    <a href="reportertest.html">Reporter</a>
+                </nav>
+            <h1>Form</h1>
+            <form action="​http://httpbin.org/post​" method="POST" class="formMe">
+    
+    
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" required
+           minlength="4" maxlength="20" size="10" tabindex="1" autofocus>
+    
+                <br>
+    
+                <input type="checkbox" id="coffee" name="coffee" checked tabindex="2">
+                <label for="coffee">Coffee</label>
+                <input type="checkbox" id="tea" name="tea" tabindex="3">
+                <label for="tea">Tea</label>
+                
+                <br>
+    
+                <label for="favcolor">Select your favorite color: </label>
+                <input type="color" name="favcolor" value="#00badb" tabindex="4">
+    
+                <br>
+                
+                <label for="email">E-mail:</label>
+    
+                <input type="email" id="email"
+                 size="30" required autocomplete="off">
+    
+                <br>
+    
+                <label for="prof">Image: </label>
+                <input type="file" id="prof" name="image" accept="image/png, image/jpeg, image/jpg">
+    
+                <br>
+    
+                <input id="objectId" name="objectId" type="hidden" value="ixl3l4">
+    
+                <br>
+    
+                <label for="phone"> Enter number: </label>
+                <input id="phone" type="number" min="1000000000" max="9999999999">
+    
+                <br>
+    
+                <label for="cell">Cell?</label>
+                <input type="tel" id="phone" name="phone"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                required disabled>
+                <p>In format XXX-XXX-0000 (Disabled)</p>
+    
+                <br>
+    
+                <label for="pw">Password :)</label>
+                <input id="pw" type="password" required minlength="8" maxlength="12">
+    
+                <br>
+    
+                <p>Do you like this website:</p>
+                <input type="radio" id="yes" name="like" value="Yes">
+                <label for="yes">YES! :)</label>
+                <input type="radio" id="no" name="like" value="No">
+                <label for="no">no...</label>
+    
+                <br>
+    
+                <label for="score">How many times have you watched Friends? </label>
+                <input type="range" id="start" name="score"
+                min="0" max="11">
+                
+                <br>
+                <label for="site-search">Search my site:</label>
+                <input type="search" id="site-search" name="q"
+                    aria-label="Search through site content">
+    
+                <br>
+                <label for="meet">MEET ME:</label>
+    
+                <input type="time" id="meet" name="meet"
+                    min="09:00" max="18:00" required>
+    
+                <br>
+                <label for="week">Which week:</label>
+    
+                <input type="week" name="week" id="week"
+                       min="2019-W40" max="2019-W46">
+                <br>
+                <label for="url">Personal Website:</label>
+    
+                <input type="url" name="url" id="url"
+                    placeholder="https://example.com"
+                    pattern="https://.*" size="30"
+                    required>
+                <br>
+    
+                
+                <h4>
+                    Another random button :)
+                    <button type="button">Click Me!</button>
+                </h4>
+                <br>
+                <label for="like-form">Did you like this form</label>
+                <select id="like-form">
+                    <option value="maybe">I think so</option>
+                    <option value="def">Yes definitly</option>
+                    <option value="nah"> GO FIND A NEW CAREER :(</option>
+                </select>
+    
+                <br>
+    
+                <!--Kind of provides an autocomplete feature-->
+                <label for="browser">Select your browser:</label>
+                <input list="browsers">
+    
+                    <datalist id="browsers">
+                    <option value="Internet Explorer">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                    <option value="Opera">
+                    <option value="Safari">
+                </datalist>
+    
+                <br>
+                <label for="grad-deets">Graduation details:</label>
+                <select>
+                        <optgroup label="Junior">
+                          <option value="year">June 2020</option>
+                          <option value="month">May 2020</option>
+                        </optgroup>
+                        <optgroup label="Senior">
+                          <option value="minute">June 2021</option>
+                          <option value="day">May 2021</option>
+                        </optgroup>
+                </select>
+    
+                <br>
+    
+                <label for="feedback">Feedback</label>
+                <textarea rows="8" cols="40">
+                    Give me feedback...
+                </textarea>
+    
+                <br>
+                <label for="progress">Progress Value:</label>
+                <progress value="20" max="100" id= "progress" style="background-color: white"></progress>
+    
+                <br>
+                <label for="meter">Meter:</label>
+                <meter value="8" min="0" max="10">2 out of 10</meter><br>
+                <br>
+
+
+                <label for="agree">I agree to the contents of this form</label>
+                <input type="text" name="agree" value="Yes" readonly>
+
+                <br>
+
+                <fieldset>
+                        <legend>Date/Time Information</legend>
+                    <label for="today">Today's date:</label>
+        
+                    <input type="date" id="today" name="today-date"
+                        value="2018-07-22"
+                        min="2018-01-01" max="2020-12-31">
+        
+                    <br>
+        
+                    <label for="birth-time">Birth Time:</label>
+        
+                    <input type="datetime-local" id="birth-time"
+                        name="time" value="2019-01-01T19:30"
+                        min="1900-01-01T00:00" max="2020-01-01T00:00">
+        
+                    <br>
+        
+                    <label for="fav-month">Favourite Month:</label>
+                    <input type="month" id="fav-month" name="month"
+               min="2019-01" value="2018-12">
+        
+                    <br>
+                </fieldset>
+
+                <br>
+                <br>
+                
+                <label>Reset: </label>
+                <input type="reset" value="Reset">
+                <br>
+                
+                <label>Submit: </label>
+                <input type="submit" value="Submit">
+                <br>
+
+    
+    
+            </form>
+</html>

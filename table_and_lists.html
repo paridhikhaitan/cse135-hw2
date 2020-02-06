@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title lang="en">Table Elements</title>
+
+    <link rel="stylesheet" type="text/css" href="./styles/main.css" />
+
+    <!--Meta Tags: provides information about the page-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, Homework, Web" />
+    <script src="./scripts/reporter.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Message for users who have disabled JavaScript from their browsers-->
+    <noscript>Your browser does not support JavaScript</noscript>
+  </head>
+
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="images.html">Images</a>
+      <a href="form.html">Form</a>
+      <a href="table_and_lists.html">Table and Lists</a>
+      <a href="external.html">External</a>
+      <a href="reportertest.html">Reporter</a>
+    </nav>
+    <h1>Table</h1>
+    <table summary="My Daily Schedule">
+      <caption>
+        My Daily Schedule
+      </caption>
+      <colgroup>
+        <col span="1" style="background: #FFFFCF;" />
+        <col span="5" style="background: #D9FFFF;" />
+        <col span="2" style="background: #D9ffdf;" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+          <th>Sunday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>00:00</td>
+          <td rowspan="8">Sleep 💤</td>
+          <td rowspan="8">Sleep 💤</td>
+          <td rowspan="8">Sleep 💤</td>
+          <td rowspan="8">Sleep 💤</td>
+          <td rowspan="8">Sleep 💤</td>
+          <td rowspan="8">Sleep 💤</td>
+          <td rowspan="8">Sleep 💤</td>
+        </tr>
+        <tr>
+          <td>01:00</td>
+        </tr>
+        <tr>
+          <td>02:00</td>
+        </tr>
+        <tr>
+          <td>03:00</td>
+        </tr>
+        <tr>
+          <td>04:00</td>
+        </tr>
+        <tr>
+          <td>05:00</td>
+        </tr>
+        <tr>
+          <td>06:00</td>
+        </tr>
+        <tr>
+          <td>07:00</td>
+        </tr>
+        <tr>
+          <td>08:00</td>
+          <td class="school">Class 👩‍💻</td>
+          <td>Sleep 💤</td>
+          <td class="school">Class 👩‍💻</td>
+          <td>Sleep 💤</td>
+          <td class="school">Class 👩‍💻</td>
+          <td>Sleep 💤</td>
+          <td>Sleep 💤</td>
+        </tr>
+        <tr>
+          <td>09:00</td>
+          <td>Free 🤸‍</td>
+          <td>Sleep 💤</td>
+          <td>Free 🤸‍</td>
+          <td>Sleep 💤</td>
+          <td>Free 🤸‍</td>
+          <td>Sleep 💤</td>
+          <td>Sleep 💤</td>
+        </tr>
+
+        <tr>
+          <td>10:00</td>
+          <td>Free 🤸‍</td>
+          <td class="school">Class 👩‍💻</td>
+          <td>Free 🤸‍</td>
+          <td class="school">Class 👩‍💻</td>
+          <td>Free 🤸‍</td>
+          <td>Sleep 💤</td>
+          <td>Sleep 💤</td>
+        </tr>
+
+        <tr>
+          <td>11:00</td>
+          <td>Free 🤸‍</td>
+          <td class="school">Class 👩‍💻</td>
+          <td>Free 🤸‍</td>
+          <td class="school">Class 👩‍💻</td>
+          <td>Free 🤸‍</td>
+          <td>Free 🤸‍</td>
+          <td>Free 🤸‍</td>
+        </tr>
+        <tr>
+          <td>12:00</td>
+          <td>Sleep 💤</td>
+          <td class="school">Class 👩‍💻</td>
+          <td>Sleep 💤</td>
+          <td class="school">Class 👩‍💻</td>
+          <td>Sleep 💤</td>
+          <td>Free 🤸‍</td>
+          <td>Free 🤸‍</td>
+        </tr>
+
+        <tr>
+          <td>13:00</td>
+          <td>Sleep 💤</td>
+          <td class="school">Class 👩‍💻</td>
+          <td>Sleep 💤</td>
+          <td class="school">Class 👩‍💻</td>
+          <td>Sleep 💤</td>
+          <td>Free 🤸‍</td>
+          <td>Free 🤸‍</td>
+        </tr>
+
+        <tr>
+          <td>14:00</td>
+          <td class="Lunch">Lunch 🍲</td>
+          <td class="Lunch">Lunch 🍲</td>
+          <td class="Lunch">Lunch 🍲</td>
+          <td class="Lunch">Lunch 🍲</td>
+          <td class="Lunch">Lunch 🍲</td>
+          <td class="Lunch">Lunch 🍲</td>
+          <td class="Lunch">Lunch 🍲</td>
+        </tr>
+        <tr>
+          <td>15:00</td>
+          <td class="school">Class 👩‍💻</td>
+          <td>Free 🤸‍</td>
+          <td class="school">Class 👩‍💻</td>
+          <td>Free 🤸‍</td>
+          <td class="school">Class 👩‍💻</td>
+          <td>Free 🤸‍</td>
+          <td>Free 🤸‍</td>
+        </tr>
+
+        <tr>
+          <td>16:00</td>
+          <td class="work">Work 🏣</td>
+          <td class="work">Work 🏣</td>
+          <td class="work">Work 🏣</td>
+          <td class="work">Work 🏣</td>
+          <td class="work">Work 🏣</td>
+          <td>Free 🤸‍</td>
+          <td>Free 🤸‍</td>
+        </tr>
+
+        <tr>
+          <td>17:00</td>
+          <td class="work">Work 🏣</td>
+          <td class="work">Work 🏣</td>
+          <td class="work">Work 🏣</td>
+          <td class="work">Work 🏣</td>
+          <td class="work">Work 🏣</td>
+          <td>Free 🤸‍</td>
+          <td>Free 🤸‍</td>
+        </tr>
+        <tr>
+          <td>18:00</td>
+          <td class="meeting">Meeting 💼</td>
+          <td class="school">Class 👩‍💻</td>
+          <td class="meeting">Meeting 💼</td>
+          <td class="school">Class 👩‍💻</td>
+          <td class="meeting">Meeting 💼</td>
+          <td>Free 🤸‍</td>
+          <td>Free 🤸‍</td>
+        </tr>
+
+        <tr>
+          <td>19:00</td>
+          <td class="meeting">Meeting 💼</td>
+          <td class="school">Class 👩‍💻</td>
+          <td class="meeting">Meeting 💼</td>
+          <td class="school">Class 👩‍💻</td>
+          <td class="meeting">Meeting 💼</td>
+          <td>Free 🤸‍</td>
+          <td>Free 🤸‍</td>
+        </tr>
+
+        <tr>
+          <td>20:00</td>
+          <td class="meeting">Meeting 💼</td>
+          <td class="school">Class 👩‍💻</td>
+          <td class="meeting">Meeting 💼</td>
+          <td class="school">Class 👩‍💻</td>
+          <td class="meeting">Meeting 💼</td>
+          <td>Free 🤸‍</td>
+          <td>Free 🤸‍</td>
+        </tr>
+
+        <tr>
+          <td>21:00</td>
+          <td class="Lunch">Dinner 🍲</td>
+          <td class="Lunch">Dinner 🍲</td>
+          <td class="Lunch">Dinner 🍲</td>
+          <td class="Lunch">Dinner 🍲</td>
+          <td class="Lunch">Dinner 🍲</td>
+          <td class="Lunch">Dinner 🍲</td>
+          <td class="Lunch">Dinner 🍲</td>
+        </tr>
+        <tr>
+          <td>22:00</td>
+          <td>Sleep 💤</td>
+          <td>Sleep 💤</td>
+          <td>Sleep 💤</td>
+          <td>Sleep 💤</td>
+          <td>Sleep 💤</td>
+          <td>Sleep 💤</td>
+          <td>Sleep 💤</td>
+        </tr>
+        <tr>
+          <td>23:00</td>
+          <td>Sleep 💤</td>
+          <td>Sleep 💤</td>
+          <td>Sleep 💤</td>
+          <td>Sleep 💤</td>
+          <td>Sleep 💤</td>
+          <td>Sleep 💤</td>
+          <td>Sleep 💤</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>
+            Class:
+          </td>
+          <td>02:00</td>
+          <td>07:00</td>
+          <td>02:00</td>
+          <td>07:00</td>
+          <td>02:00</td>
+          <td>00:00</td>
+          <td>00:00</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <div class="lists">
+      <h2>Due Dates</h2>
+      <ol>
+        <li>
+          CSE 135 PA - Tuesday
+        </li>
+        <li>
+          CSE 120 PA 2 - Sunday
+        </li>
+        <li>
+          COGS 120 - Thursday
+        </li>
+        <li>
+          MUS 17 - ??
+        </li>
+      </ol>
+
+      <h2>To-Do</h2>
+      <ul>
+        <li>
+          Make Design Co Deck
+        </li>
+        <li>
+          Begin on CSE 120 Processor speed tracking
+        </li>
+        <li>
+          Complete CSE 135 PA 1 - Externals
+        </li>
+        <li>
+          Finish the feedback page on D4SD
+        </li>
+      </ul>
+
+      <h2>Legend</h2>
+      <dl>
+        <dt>Class 👩‍💻</dt>
+        <dd>Any of the 4 unit classes that I'm taking + Discussions</dd>
+
+        <dt>Sleep 💤</dt>
+        <dd>Something I clearly do A LOT</dd>
+
+        <dt>Work 🏣</dt>
+        <dd>
+          Report to Information Technology Services Building for Student
+          Developer work
+        </dd>
+
+        <dt>Meeting 💼</dt>
+        <dd>Protolab with Dr. Dow or Design Co @ UCSD</dd>
+        <dd></dd>
+      </dl>
+    </div>
+  </body>
+</html>
